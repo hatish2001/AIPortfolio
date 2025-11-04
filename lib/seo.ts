@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 
 export const defaultMetadata: Metadata = {
-  metadataBase: new URL('https://workflix.example.com'),
+  metadataBase: new URL('https://devfolio.example.com'),
   title: {
-    default: 'Workflix - Harishraj Udaya Bhaskar\'s Portfolio',
-    template: '%s | Workflix'
+    default: 'DevFolio - Harishraj Udaya Bhaskar\'s Portfolio',
+    template: '%s | DevFolio'
   },
   description: 'AI engineer building intelligent systems that outsmart regulators, slash costs, and transform customer experiences.',
   keywords: ['AI engineer', 'machine learning', 'LLM', 'RAG', 'multi-agent systems', 'Harishraj Udaya Bhaskar', 'portfolio'],
@@ -13,22 +13,22 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://workflix.example.com',
-    title: 'Workflix - Harishraj Udaya Bhaskar\'s Portfolio',
+    url: 'https://devfolio.example.com',
+    title: 'DevFolio - Harishraj Udaya Bhaskar\'s Portfolio',
     description: 'AI engineer building intelligent systems that outsmart regulators, slash costs, and transform customer experiences.',
-    siteName: 'Workflix',
+    siteName: 'DevFolio',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Workflix Portfolio'
+        alt: 'DevFolio Portfolio'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Workflix - Harishraj Udaya Bhaskar\'s Portfolio',
+    title: 'DevFolio - Harishraj Udaya Bhaskar\'s Portfolio',
     description: 'AI engineer building intelligent systems that outsmart regulators, slash costs, and transform customer experiences.',
     creator: '@uharishraj',
     images: ['/og-image.jpg']
@@ -54,8 +54,8 @@ export function generateJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Harishraj Udaya Bhaskar',
-    url: 'https://workflix.example.com',
-    image: 'https://workflix.example.com/images/me.jpg',
+    url: 'https://devfolio.example.com',
+    image: 'https://devfolio.example.com/images/me.jpg',
     sameAs: [
       'https://github.com/hatish2001',
       'https://linkedin.com/in/uharishraj',

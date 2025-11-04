@@ -40,7 +40,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="font-black text-xl relative group">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[var(--gradient-1)] to-[var(--gradient-2)] group-hover:from-[var(--gradient-2)] group-hover:to-[var(--gradient-3)] transition-all duration-500">
-              WORKFLIX
+              DEVFOLIO
             </span>
             <motion.span 
               className="absolute -inset-1 rounded-lg bg-gradient-to-r from-[var(--gradient-1)] to-[var(--gradient-2)] opacity-0 group-hover:opacity-20 blur-lg transition-opacity"

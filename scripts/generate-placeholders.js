@@ -59,11 +59,11 @@ const placeholders = [
   { path: 'public/images/exp/cgi.jpg', text: 'CGI Inc', width: 1280, height: 720, type: 'experience' },
   // Profile & Meta
   { path: 'public/images/me.jpg', text: 'Harishraj', width: 800, height: 800, type: 'default' },
-  { path: 'public/og-image.jpg', text: 'Workflix', width: 1200, height: 630, type: 'default' },
-  { path: 'public/favicon.ico', text: 'W', width: 32, height: 32, type: 'default' },
-  { path: 'public/apple-touch-icon.png', text: 'W', width: 180, height: 180, type: 'default' },
-  { path: 'public/icon-192x192.png', text: 'W', width: 192, height: 192, type: 'default' },
-  { path: 'public/icon-512x512.png', text: 'W', width: 512, height: 512, type: 'default' },
+  { path: 'public/og-image.jpg', text: 'DevFolio', width: 1200, height: 630, type: 'default' },
+  { path: 'public/favicon.ico', text: 'D', width: 32, height: 32, type: 'default' },
+  { path: 'public/apple-touch-icon.png', text: 'D', width: 180, height: 180, type: 'default' },
+  { path: 'public/icon-192x192.png', text: 'D', width: 192, height: 192, type: 'default' },
+  { path: 'public/icon-512x512.png', text: 'D', width: 512, height: 512, type: 'default' },
 ];
 
 placeholders.forEach(({ path: filePath, text, width, height, type }) => {

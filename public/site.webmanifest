@@ -1,7 +1,7 @@
 {
-  "name": "Workflix Portfolio",
-  "short_name": "Workflix",
-  "description": "Harry Bhaskar's Netflix-styled portfolio",
+  "name": "DevFolio Portfolio",
+  "short_name": "DevFolio",
+  "description": "Harishraj Udaya Bhaskar's Professional Portfolio",
   "theme_color": "#0b0b0f",
   "background_color": "#0b0b0f",
   "display": "standalone",

@@ -8,8 +8,8 @@ import { ChatBot } from '@/components/ChatBot'
 export const metadata: Metadata = {
   ...defaultMetadata,
   title: {
-    default: 'Workflix - Harishraj Udaya Bhaskar Portfolio',
-    template: '%s | Workflix'
+    default: 'DevFolio - Harishraj Udaya Bhaskar Portfolio',
+    template: '%s | DevFolio'
   },
 };
 

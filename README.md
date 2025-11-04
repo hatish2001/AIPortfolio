@@ -1,10 +1,10 @@
-# Workflix - Netflix-Styled Portfolio
+# DevFolio - Professional Portfolio
 
-A modern, responsive portfolio website built with Next.js 14 that presents your professional journey in a familiar Netflix-inspired interface.
+A modern, responsive portfolio website built with Next.js 14 that presents your professional journey with an elegant, AI-powered interface.
 
 ## Features
 
-- **Netflix-style UI/UX**: Horizontal carousels, hover previews, and modal details
+- **Modern UI/UX**: Horizontal carousels, hover previews, and modal details
 - **Responsive Design**: Works seamlessly from mobile (360px) to desktop (1440px+)
 - **Accessibility**: Full keyboard navigation, ARIA labels, and focus management
 - **Performance**: Optimized images, lazy loading, and smooth animations
@@ -63,7 +63,7 @@ components/
 ├── Hero.tsx          # Featured content banner
 ├── Row.tsx           # Horizontal carousel
 ├── Tile.tsx          # Content cards
-├── DetailModal.tsx   # Netflix-style modal
+├── DetailModal.tsx   # Project details modal
 ├── Footer.tsx        # Site footer
 lib/
 ├── data.ts          # Content data
@@ -125,5 +125,5 @@ MIT License - feel free to use this template for your own portfolio!
 
 ## Credits
 
-- UI design inspired by Netflix (trademark acknowledgment)
 - Built with Next.js, React, TailwindCSS, and Framer Motion
+- AI-powered chatbot with RAG (Retrieval-Augmented Generation)
