@@ -1,0 +1,10 @@
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad-apps" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="url(#grad-apps)"/>
+    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" alignment-baseline="middle" opacity="0.9">Screenshot 2</text>
+  </svg>
