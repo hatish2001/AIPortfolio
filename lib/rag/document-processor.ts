@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-// pdf-parse uses CommonJS, so we need to use require for compatibility
-const pdf = require('pdf-parse');
+import pdf from 'pdf-parse';
 
 export interface ProcessedDocument {
   text: string;
